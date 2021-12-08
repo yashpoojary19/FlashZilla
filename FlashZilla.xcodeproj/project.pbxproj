@@ -14,6 +14,8 @@
 		B62BA79E275F73590040E268 /* FlashZillaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA79D275F73590040E268 /* FlashZillaTests.swift */; };
 		B62BA7A8275F73590040E268 /* FlashZillaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA7A7275F73590040E268 /* FlashZillaUITests.swift */; };
 		B62BA7AA275F73590040E268 /* FlashZillaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA7A9275F73590040E268 /* FlashZillaUITestsLaunchTests.swift */; };
+		B62BA7B72760B9D30040E268 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA7B62760B9D30040E268 /* Card.swift */; };
+		B62BA7B92760BAA80040E268 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA7B82760BAA80040E268 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B62BA7A3275F73590040E268 /* FlashZillaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashZillaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62BA7A7275F73590040E268 /* FlashZillaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashZillaUITests.swift; sourceTree = "<group>"; };
 		B62BA7A9275F73590040E268 /* FlashZillaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashZillaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B62BA7B62760B9D30040E268 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B62BA7B82760BAA80040E268 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		B62BA78B275F73560040E268 /* FlashZilla */ = {
 			isa = PBXGroup;
 			children = (
+				B62BA7B62760B9D30040E268 /* Card.swift */,
+				B62BA7B82760BAA80040E268 /* CardView.swift */,
 				B62BA78C275F73560040E268 /* FlashZillaApp.swift */,
 				B62BA78E275F73560040E268 /* ContentView.swift */,
 				B62BA790275F73590040E268 /* Assets.xcassets */,
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B62BA78F275F73560040E268 /* ContentView.swift in Sources */,
+				B62BA7B72760B9D30040E268 /* Card.swift in Sources */,
+				B62BA7B92760BAA80040E268 /* CardView.swift in Sources */,
 				B62BA78D275F73560040E268 /* FlashZillaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +433,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,6 +463,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
